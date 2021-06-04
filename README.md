@@ -1,4 +1,4 @@
-# ICML21 Submission: The Best of Both Worlds: Trapdoored-based MitiGANs for Durable Adversarial Defenses 
+# NeurIPS21 Submission: The Best of Both Worlds: Trapdoored-based MitiGANs for Durable Adversarial Defenses 
 
 This is an unofficial implementation of the Neurips Submission:  The Best of Both Worlds: Trapdoored-based MitiGANs for Durable Adversarial Defenses in Pytorch.
 
@@ -36,7 +36,12 @@ Single label run command
 $ cd MitiGAN_single_label
 $ python train_mitigan.py --dataset <datasetName>  --data_root <dataRootPath> --checkpoints <checkpointPath>
 ```
-Multi label is similar in folder MitiGAn_multi_label
+where:
+- `<dataRootPath>`: Path to directory containing data. Default: `./data`.
+- `<datasetName>`: `mnist` | `cifar10` | `gtsrb` | `TinyImageNet`.
+- `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
+
+Multi label is similar in folder MitiGAN_multi_label
 ### Pretrained models
 We also provide pretrained checkpoints used in the manuscript. To decompress the checkpoints for evaluating, run command
 
