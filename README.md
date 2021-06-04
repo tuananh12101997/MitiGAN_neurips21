@@ -60,3 +60,5 @@ where the parameters are the following:
 - `<datasetName>`: `mnist` | `cifar10` | `gtsrb`.
 - `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
 - `<attackMethodName>`: Name of adversarial attack method used for evaluation: `CW` | `MIFGSM` | `PGD` | `ElasticNet` | `BPDA` | `SPSA` | `bound`
+
+Checkpoint of all single label can be download this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip), and multi label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip)
