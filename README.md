@@ -43,7 +43,7 @@ where:
 
  Muiti-label model can be trained similarly, but with folder MitiGAN_multi_label
 ### Pretrained models
-We also provide pretrained checkpoints of all single-label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip), and multi-label be downloaded this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip).
+We also provide pretrained checkpoints of all single-label in this link https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip, and multi-label be downloaded this link https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip.
 
 ## Evaluation Code
 Run command
