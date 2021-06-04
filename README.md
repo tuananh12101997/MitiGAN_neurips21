@@ -29,7 +29,7 @@ where:
 - `<datasetName>`: `mnist` | `cifar10` | `gtsrb` | `TinyImageNet`.
 - `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
 
-Multi label is similar in folder MitiGAn_multi_label
+Multi label is similar in folder MitiGAN_multi_label
 ### Train MitiGAN 
 Single label run command
 ```bash
