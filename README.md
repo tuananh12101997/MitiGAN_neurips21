@@ -19,7 +19,7 @@ $ bash gtsrb_download.sh
 ## Training Code
 
 ### Train Trapdoored Classifiers
-Single label run comand line
+Single-label trapdoor model training:
 ```bash
 $ cd MitiGAN_single_label
 $ python train_backdoor.py --dataset <datasetName> --data_root <dataRootPath> --checkpoints <checkpointPath>
@@ -29,9 +29,9 @@ where:
 - `<datasetName>`: `mnist` | `cifar10` | `gtsrb` | `TinyImageNet`.
 - `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
 
-Multi label is similar in folder MitiGAN_multi_label
+ Muiti-label model can be trained similarly, but with folder MitiGAN_multi_label
 ### Train MitiGAN 
-Single label run command
+Single-label MitiGAN training:
 ```bash
 $ cd MitiGAN_single_label
 $ python train_mitigan.py --dataset <datasetName>  --data_root <dataRootPath> --checkpoints <checkpointPath>
@@ -41,14 +41,9 @@ where:
 - `<datasetName>`: `mnist` | `cifar10` | `gtsrb` | `TinyImageNet`.
 - `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
 
-Multi label is similar in folder MitiGAN_multi_label
+ Muiti-label model can be trained similarly, but with folder MitiGAN_multi_label
 ### Pretrained models
-We also provide pretrained checkpoints of all multi label can be download this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip), and single label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip) To decompress the checkpoints for evaluating, run command
-
-```bash
-$ unzip checkpoints_single_label.zip.zip
-$ unzip checkpoints_multi_label.zip.zip
-```
+We also provide pretrained checkpoints of all single-label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip), and multi-label be downloaded this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip).
 
 ## Evaluation Code
 Run command
