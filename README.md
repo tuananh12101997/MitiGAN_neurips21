@@ -43,10 +43,11 @@ where:
 
 Multi label is similar in folder MitiGAN_multi_label
 ### Pretrained models
-We also provide pretrained checkpoints used in the manuscript. To decompress the checkpoints for evaluating, run command
+We also provide pretrained checkpoints of all multi label can be download this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip), and single label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip) To decompress the checkpoints for evaluating, run command
 
 ```bash
-$ unzip checkpoints_simple_kapa0_1.zip
+$ unzip checkpoints_single_label.zip.zip
+$ unzip checkpoints_multi_label.zip.zip
 ```
 
 ## Evaluation Code
@@ -61,4 +62,3 @@ where the parameters are the following:
 - `<checkpointPath>`: Path to checkpoint. Default: `./checkpoints`.
 - `<attackMethodName>`: Name of adversarial attack method used for evaluation: `CW` | `MIFGSM` | `PGD` | `ElasticNet` | `BPDA` | `SPSA` | `bound`
 
-Checkpoint of all single label can be download this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_multi_label.zip), and multi label in this link (https://storage.googleapis.com/anonymous-neurips2021/checkpoints_single_label.zip)
